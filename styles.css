@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#info {
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: center;
+  border-top: 1px solid #000;
+  padding-top: 0.5rem;
+}
+
+#check-btn {
+  background-color: #00ff00;
+  font-size: 1rem;
+  color: #000;
+  border-radius: 0.5rem;
+  border: 0px;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+#text-input {
+  font-size: 1rem;
+  border: 2px solid #000;
+}
+
+#result {
+  text-align: center;
+}
+
+div {
+  margin: 1rem auto;
+  width: 17rem;
+}
+
+.not {
+  color: red;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 20px;
+  }
+}
