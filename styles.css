@@ -6,10 +6,14 @@ html {
   font-size: 30px;
 }
 
+body {
+  padding: 1rem;
+}
+
 label {
-  display: block;
   text-align: center;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 #info {
@@ -24,8 +28,8 @@ label {
   background-color: #00ff00;
   font-size: 1rem;
   color: #000;
-  border-radius: 0.5rem;
-  border: 0px;
+  border: none;
+  border-radius: 0.2rem;
   padding: 0.2rem;
   cursor: pointer;
 }
@@ -33,15 +37,19 @@ label {
 #text-input {
   font-size: 1rem;
   border: 2px solid #000;
+  margin-bottom: 0.5rem;
 }
+
 
 #result {
   text-align: center;
 }
 
 div {
-  margin: 1rem auto;
-  width: 17rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
 }
 
 .not {
@@ -49,7 +57,7 @@ div {
 }
 
 @media (max-width: 700px) {
-  html {
-    font-size: 20px;
+  div {
+    width: 100%;
   }
 }
